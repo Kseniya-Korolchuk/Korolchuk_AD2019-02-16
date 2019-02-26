@@ -10,4 +10,7 @@
     <string name="Madagaskar">Мадагаскар</string>
     <string name="Thailand">Таиланд</string>
     <string name="Denmark">Дания</string>
+    <string name="registration">Registration</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
 </resources>

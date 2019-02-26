@@ -11,12 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".dz2.FlagsActivity">
-
-        </activity>
-        <activity android:name=".dz2.Dz2MenuActivity">
-
-        </activity>
+        <activity android:name=".dz3.LogoActivity"></activity>
+        <activity android:name=".dz2.FlagsActivity"></activity>
+        <activity android:name=".dz2.Dz2MenuActivity"></activity>
         <activity android:name=".dz2.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

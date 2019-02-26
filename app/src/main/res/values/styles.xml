@@ -45,4 +45,39 @@
         <item name="android:layout_marginTop">80dp</item>
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="LogoButtonTextView" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="LoginEditText">
+        <item name="android:background">@color/loginEditTextBg</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/textPrimary</item>
+        <item name="android:fontFamily">@fonts/monda_bold</item>
+    </style>
+
+    <style name="Button" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@fonts/monda_bold</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:background">@color/buttonPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@fonts/monda_bold</item>
+    </style>
+
+    <style name="ButtonSecond" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/buttonSecond</item>
+        <item name="android:fontFamily">@fonts/monda_bold</item>
+    </style>
 </resources>

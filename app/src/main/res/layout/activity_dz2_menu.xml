@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:background="#384e72"
+    tools:ignore="HardcodedText"
+    >
+
+    <Button
+        style="@style/DzMenuButton"
+        android:id="@+id/dz2Button1"
+        android:text="@string/flags"
+        />
+    <Button
+        style="@style/DzMenuButton"
+        android:id="@+id/dz2Button2"
+        android:text="@string/logo"
+        />
+</LinearLayout>

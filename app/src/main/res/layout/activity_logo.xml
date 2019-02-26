@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dark_blue_texture_by_carlbert"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_bluelogo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="290dp"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/login"
+        android:textSize="22sp"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/password"
+        android:textSize="22sp"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="490dp"
+        android:background="#010f3d"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:background="#303649"
+        android:textColor="#ffffff"
+        android:text="@string/registration"
+        android:layout_gravity="center_horizontal"
+
+        />
+</FrameLayout>

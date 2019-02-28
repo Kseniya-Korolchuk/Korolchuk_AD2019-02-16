@@ -1,174 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal|center_vertical"
     android:background="#384e72"
-    tools:ignore="HardcodedText"
-    >
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
 
     <TextView
         android:layout_width="match_parent"
-        android:gravity="center_horizontal"
         android:layout_height="40dp"
+        android:gravity="center_horizontal"
         android:text="@string/hometasks"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button1"
             style="@style/FirstMainMenuButton"
-            android:text="1"
-            />
+            android:text="1" />
+
         <Button
             android:id="@+id/button2"
             style="@style/MainMenuButton"
-            android:text="2"/>
+            android:text="2" />
+
         <Button
             android:id="@+id/button3"
             style="@style/MainMenuButton"
-            android:text="3"/>
+            android:text="3" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button4"
             style="@style/FirstMainMenuButton"
-            android:text="4"/>
+            android:text="4" />
+
         <Button
             android:id="@+id/button5"
             style="@style/MainMenuButton"
-            android:text="5"/>
+            android:text="5" />
+
         <Button
             android:id="@+id/button6"
             style="@style/MainMenuButton"
-            android:text="6"/>
+            android:text="6" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button7"
-           style="@style/FirstMainMenuButton"
-            android:text="7"/>
+            style="@style/FirstMainMenuButton"
+            android:text="7" />
+
         <Button
             android:id="@+id/button8"
             style="@style/MainMenuButton"
-            android:text="8"/>
+            android:text="8" />
+
         <Button
             android:id="@+id/button9"
             style="@style/MainMenuButton"
-            android:text="9"/>
+            android:text="9" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button10"
             style="@style/FirstMainMenuButton"
-            android:text="10"/>
+            android:text="10" />
+
         <Button
             android:id="@+id/button11"
             style="@style/MainMenuButton"
-            android:text="11"/>
+            android:text="11" />
+
         <Button
             android:id="@+id/button12"
             style="@style/MainMenuButton"
-            android:text="12"
-            />
+            android:text="12" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginBottom="10dp"
-        >
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button13"
             style="@style/FirstMainMenuButton"
-            android:text="13"/>
+            android:text="13" />
+
         <Button
             android:id="@+id/button14"
             style="@style/MainMenuButton"
-            android:text="14"/>
+            android:text="14" />
+
         <Button
             android:id="@+id/button15"
             style="@style/MainMenuButton"
-            android:text="15"/>
+            android:text="15" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button16"
             style="@style/FirstMainMenuButton"
-            android:text="16"/>
+            android:text="16" />
+
         <Button
             android:id="@+id/button17"
             style="@style/MainMenuButton"
-            android:text="17"/>
+            android:text="17" />
+
         <Button
             android:id="@+id/button18"
             style="@style/MainMenuButton"
-            android:text="18"/>
+            android:text="18" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button19"
             style="@style/FirstMainMenuButton"
-            android:text="19"/>
+            android:text="19" />
+
         <Button
             android:id="@+id/button20"
             style="@style/MainMenuButton"
-            android:text="20"/>
+            android:text="20" />
+
         <Button
             android:id="@+id/button21"
             style="@style/MainMenuButton"
-            android:text="21"/>
+            android:text="21" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/button22"
             style="@style/FirstMainMenuButton"
-            android:text="22"/>
+            android:text="22" />
+
         <Button
             android:id="@+id/button23"
             style="@style/MainMenuButton"
-            android:text="23"/>
+            android:text="23" />
+
         <Button
             android:id="@+id/button24"
             style="@style/MainMenuButton"
-            android:text="24"/>
+            android:text="24" />
+
     </LinearLayout>
 </LinearLayout>

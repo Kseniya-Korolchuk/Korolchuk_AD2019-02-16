@@ -11,7 +11,6 @@ import by.korolchuk.R;
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,13 +28,13 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         switch (v.getId()) {
-            case  R.id.button2: startDz2MenuActivity();
+            case R.id.button2:
+                startFlagsActivity();
         }
-
     }
 
-   private void startDz2MenuActivity(){
-        Intent intent = new Intent(this, Dz2MenuActivity.class);
+    private void startFlagsActivity() {
+        Intent intent = new Intent(this, FlagsActivity.class);
         startActivity(intent);
     }
 }

@@ -1,19 +1,13 @@
 <resources>
     <string name="app_name">AD2019_02_16</string>
     <string name="hometasks">ДОМАШНИЕ ЗАДАНИЯ</string>
-    <string name="flags">ФЛАГИ</string>
-    <string name="logo">ЛОГО</string>
+
     <string name="Austria">Австрия</string>
     <string name="Poland">Польша</string>
     <string name="Italy">Италия</string>
     <string name="Columbia">Колумбия</string>
-    <string name="Madagaskar">Мадагаскар</string>
+    <string name="Madagasсar">Мадагаскар</string>
     <string name="Thailand">Таиланд</string>
     <string name="Denmark">Дания</string>
-    <string name="registration">Registration</string>
-    <string name="password">Password</string>
-    <string name="login">Login</string>
-    <string name="username">Username</string>
-    <string name="forgot_your_username_password">Forgot your username/password?</string>
-    <string name="create_account">Create account</string>
+
 </resources>

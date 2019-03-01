@@ -8,4 +8,8 @@
     <color name="textPrimary">#ffffff</color>
     <color name="buttonPrimary">#43B6EE</color>
     <color name="buttonSecond">#D3BD9164</color>
+
+    <color name="TextView1">#FFEB3B</color>
+    <color name="TextView2">#3DFF07</color>
+    <color name="inversionButton">#747474</color>
 </resources>

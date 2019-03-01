@@ -9,5 +9,8 @@
     <string name="Madagasсar">Мадагаскар</string>
     <string name="Thailand">Таиланд</string>
     <string name="Denmark">Дания</string>
+    <string name="textview_1">TextView 1</string>
+    <string name="textview_2">TextView_2</string>
+    <string name="invert">Invert</string>
 
 </resources>

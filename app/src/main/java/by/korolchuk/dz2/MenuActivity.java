@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import by.korolchuk.Dz1_Activity;
 import by.korolchuk.R;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
@@ -28,13 +29,23 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         switch (v.getId()) {
+            case R.id.button1:
+                startDz1_Activity();
+                break;
             case R.id.button2:
                 startFlagsActivity();
+                break;
         }
+    }
+
+    private void startDz1_Activity() {
+        Intent intent = new Intent(this, Dz1_Activity.class);
+        startActivity(intent);
     }
 
     private void startFlagsActivity() {
         Intent intent = new Intent(this, FlagsActivity.class);
         startActivity(intent);
     }
+
 }

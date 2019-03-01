@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="150dp"
+    android:paddingBottom="130dp"
+    android:weightSum="7">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/Dz1_TV_1"
+            style="@style/Dz1_TextView"
+            android:layout_marginEnd="20dp"
+            android:background="@color/TextView1" />
+
+        <TextView
+            android:id="@+id/Dz1_TV_2"
+            style="@style/Dz1_TextView"
+            android:layout_marginStart="20dp"
+            android:background="@color/TextView2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Dz1_Invert_Button"
+        style="@style/Dz1_TextView"
+        android:text="@string/invert"
+        android:background="@color/inversionButton"/>
+
+</LinearLayout>
+

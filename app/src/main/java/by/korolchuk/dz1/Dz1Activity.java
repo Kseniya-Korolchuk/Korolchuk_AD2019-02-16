@@ -1,4 +1,4 @@
-package by.korolchuk;
+package by.korolchuk.dz1;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import by.korolchuk.R;
 
 
 public class Dz1Activity extends AppCompatActivity implements View.OnClickListener {

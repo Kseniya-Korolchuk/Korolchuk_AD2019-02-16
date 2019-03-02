@@ -2,13 +2,13 @@
     <string name="app_name">AD2019_02_16</string>
     <string name="hometasks">ДОМАШНИЕ ЗАДАНИЯ</string>
 
-    <string name="Austria">Австрия</string>
-    <string name="Poland">Польша</string>
-    <string name="Italy">Италия</string>
-    <string name="Columbia">Колумбия</string>
-    <string name="Madagasсar">Мадагаскар</string>
-    <string name="Thailand">Таиланд</string>
-    <string name="Denmark">Дания</string>
+    <string name="austria">Австрия</string>
+    <string name="poland">Польша</string>
+    <string name="italy">Италия</string>
+    <string name="columbia">Колумбия</string>
+    <string name="madagasсar">Мадагаскар</string>
+    <string name="thailand">Таиланд</string>
+    <string name="denmark">Дания</string>
     <string name="textview_1">TextView 1</string>
     <string name="textview_2">TextView_2</string>
     <string name="invert">Invert</string>

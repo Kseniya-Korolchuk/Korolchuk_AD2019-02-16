@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import by.korolchuk.Dz1_Activity;
+import by.korolchuk.Dz1Activity;
 import by.korolchuk.R;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
@@ -39,7 +39,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void startDz1_Activity() {
-        Intent intent = new Intent(this, Dz1_Activity.class);
+        Intent intent = new Intent(this, Dz1Activity.class);
         startActivity(intent);
     }
 

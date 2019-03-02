@@ -14,7 +14,7 @@
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Austria" />
+            android:text="@string/austria" />
 
         <LinearLayout
             style="@style/flag"
@@ -28,12 +28,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#ffffff" />
+                android:background="#ffffff"
+                tools:ignore="NestedWeights" />
         </LinearLayout>
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Poland" />
+            android:text="@string/poland" />
 
         <LinearLayout
             style="@style/flag"
@@ -53,7 +54,7 @@
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Italy" />
+            android:text="@string/italy" />
 
         <LinearLayout
             style="@style/flag"
@@ -77,7 +78,7 @@
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Columbia" />
+            android:text="@string/columbia" />
 
         <LinearLayout
             style="@style/flag"
@@ -100,7 +101,7 @@
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Madagasсar" />
+            android:text="@string/madagasсar" />
 
         <RelativeLayout
             style="@style/flag"
@@ -123,7 +124,7 @@
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Thailand" />
+            android:text="@string/thailand" />
 
         <LinearLayout
             style="@style/flag"
@@ -153,7 +154,7 @@
 
         <TextView
             style="@style/flagName"
-            android:text="@string/Denmark" />
+            android:text="@string/denmark" />
 
         <RelativeLayout
             style="@style/flag"

@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-public class Dz1_Activity extends AppCompatActivity implements View.OnClickListener {
+public class Dz1Activity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

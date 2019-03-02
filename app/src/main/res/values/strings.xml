@@ -13,4 +13,11 @@
     <string name="textview_2">TextView_2</string>
     <string name="invert">Invert</string>
 
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="username">Username</string>
+    <string name="forgot_your_username_password"><u>Forgot your username/password?</u></string>
+    <string name="create_account">Create account</string>
+    <string name="cd_app_and_company_logo">App and Company logo</string>
+
 </resources>

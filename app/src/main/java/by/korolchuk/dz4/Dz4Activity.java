@@ -11,12 +11,5 @@ public class Dz4Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dz4);
-
-        Manager.getInstance().setDz4Activity(this);
-
-    }
-
-    public void finish(){
-
     }
 }

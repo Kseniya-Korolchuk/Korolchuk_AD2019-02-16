@@ -12,4 +12,6 @@
     <color name="TextView1">#FFEB3B</color>
     <color name="TextView2">#3DFF07</color>
     <color name="inversionButton">#747474</color>
+
+    <color name="dark_gray">#FF444444</color>
 </resources>

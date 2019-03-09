@@ -12,6 +12,7 @@ import com.squareup.picasso.Picasso;
 import by.korolchuk.R;
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
+
 public class ImageDownloader extends Activity implements View.OnClickListener {
 
 

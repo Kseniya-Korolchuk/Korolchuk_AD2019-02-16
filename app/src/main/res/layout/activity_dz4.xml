@@ -3,13 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_gray"
-    >
+    android:background="@color/dark_gray">
 
     <by.korolchuk.dz4.ClockView
         android:id="@+id/ClockView"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/transition_button"
+        style="@style/TransitionButton"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

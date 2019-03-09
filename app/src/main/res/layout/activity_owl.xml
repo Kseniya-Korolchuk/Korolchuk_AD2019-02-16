@@ -8,6 +8,13 @@
         android:id="@+id/owlImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/owl_image_view" />
+
+    <Button
+        android:id="@+id/transition_button"
+        style="@style/TransitionButton"
+        android:layout_alignParentBottom="true"/>
+
 
 </RelativeLayout>

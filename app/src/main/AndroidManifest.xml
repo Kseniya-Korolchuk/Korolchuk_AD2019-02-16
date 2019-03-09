@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="by.korolchuk">
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".dz5.App"
@@ -14,7 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".dz6.Dz6Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".dz4.Dz4Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +52,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".dz5.Dz5Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,10 +60,11 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".dz5.MyIntentService"/>
+        <service android:name=".dz5.MyIntentService" />
+
         <receiver android:name=".dz5.WifiReceiver">
             <intent-filter>
-                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
             </intent-filter>
         </receiver>
     </application>

@@ -16,7 +16,7 @@ public class Dz4PieChartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dz4_pie_chart);
         PieChartView pieChart = findViewById(R.id.PieChartView);
-        float[] data = {450, 630, 300, 200, 400};
+        float[] data = {13,55,90,7,3,30};
         pieChart.setData(data);
 
         Button button = findViewById(R.id.transition_button);

@@ -82,6 +82,7 @@
         <item name="android:padding">25dp</item>
     </style>
 
+<<<<<<< HEAD
     <style name="DownloaderEditText">
         <item name="android:background">@drawable/shape_edit_text</item>
         <item name="android:layout_width">match_parent</item>
@@ -100,5 +101,13 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">@fonts/monda_bold</item>
+=======
+    <style name="TransitionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:textColor">@color/buttonPrimary</item>
+>>>>>>> Dz4
     </style>
 </resources>

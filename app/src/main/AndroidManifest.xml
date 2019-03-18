@@ -14,9 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-<<<<<<< HEAD
-        <activity android:name=".dz3.ImageDownloader">
-=======
+
+        <activity android:name=".dz3.ImageDownloader"/>
+
         <activity android:name=".dz4.OwlActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".dz4.Dz4Activity">
->>>>>>> Dz4
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

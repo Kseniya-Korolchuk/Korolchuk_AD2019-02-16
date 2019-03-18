@@ -33,6 +33,9 @@ dependencies {
     implementation('com.squareup.picasso:picasso:2.71828') {
         exclude group: 'com.android.support'
     }
+    implementation('jp.wasabeef:picasso-transformations:2.1.0') {
+        exclude group: 'com.android.support'
+    }
     implementation 'com.jakewharton.timber:timber:4.7.1'
     configurations {
         cleanedAnnotations

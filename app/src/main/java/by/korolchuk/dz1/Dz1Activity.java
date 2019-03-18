@@ -12,6 +12,9 @@ import by.korolchuk.R;
 
 public class Dz1Activity extends AppCompatActivity implements View.OnClickListener {
 
+    private TextView dzTV1;
+    private TextView dzTV2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,8 +22,8 @@ public class Dz1Activity extends AppCompatActivity implements View.OnClickListen
 
         final Button dz1InvertButton = findViewById(R.id.Dz1_Invert_Button);
         dz1InvertButton.setOnClickListener(this);
-        TextView dzTV1 = findViewById(R.id.Dz1_TV_1);
-        TextView dzTV2 = findViewById(R.id.Dz1_TV_2);
+        dzTV1 = findViewById(R.id.Dz1_TV_1);
+        dzTV2 = findViewById(R.id.Dz1_TV_2);
 
         dzTV1.setText(R.string.textview_1);
         dzTV2.setText(R.string.textview_2);
@@ -49,10 +52,7 @@ public class Dz1Activity extends AppCompatActivity implements View.OnClickListen
         inversion();
     }
 
-
     public void inversion() {
-        TextView dzTV1 = findViewById(R.id.Dz1_TV_1);
-        TextView dzTV2 = findViewById(R.id.Dz1_TV_2);
 
         String dzTV1Text = dzTV1.getText().toString();
         String dzTV2Text = dzTV2.getText().toString();

@@ -1,0 +1,9 @@
+diff a/app/.idea/workspace.xml b/app/.idea/workspace.xml	(rejected hunks)
+@@ -6,6 +6,7 @@
+     </shared>
+   </component>
+   <component name="ChangeListManager">
++<<<<<<< HEAD
+ <<<<<<< HEAD
+     <list default="true" id="57650779-9bde-4808-9907-e822cb7afc4e" name="Default Changelist" comment="">
+       <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />

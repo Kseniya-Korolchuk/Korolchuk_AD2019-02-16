@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57650779-9bde-4808-9907-e822cb7afc4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/korolchuk/Dz5/Dz5Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/korolchuk/Dz5/Dz5Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_dz5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14263">
-              <caret line="905" column="10" selection-start-line="905" selection-start-column="10" selection-end-line="905" selection-end-column="10" />
+            <state relative-caret-position="14161">
+              <caret line="898" column="10" selection-start-line="898" selection-start-column="10" selection-end-line="898" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -114,11 +106,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/korolchuk/Dz5/Dz5Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+            <state relative-caret-position="867">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding>
                 <element signature="e#997#1357#0" expanded="true" />
                 <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#2018#2019#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
                 <element signature="e#2242#2243#0" expanded="true" />
                 <element signature="e#2279#2280#0" expanded="true" />
               </folding>
@@ -373,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.Dz5Activity">
+  <component name="RunManager" selected="Android App.ImageDownloader">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -877,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14263">
-          <caret line="905" column="10" selection-start-line="905" selection-start-column="10" selection-end-line="905" selection-end-column="10" />
+        <state relative-caret-position="14161">
+          <caret line="898" column="10" selection-start-line="898" selection-start-column="10" selection-end-line="898" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -956,11 +950,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/korolchuk/Dz5/Dz5Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        <state relative-caret-position="867">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding>
             <element signature="e#997#1357#0" expanded="true" />
             <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
             <element signature="e#2242#2243#0" expanded="true" />
             <element signature="e#2279#2280#0" expanded="true" />
           </folding>

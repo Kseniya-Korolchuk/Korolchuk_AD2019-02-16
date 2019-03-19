@@ -66,7 +66,6 @@ public class ClockView extends View {
         drawNumbers(canvas);
         drawLines(canvas);
 
-
         postInvalidateDelayed(500);
         invalidate();
     }

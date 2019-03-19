@@ -19,7 +19,15 @@
     <string name="forgot_your_username_password"><u>Forgot your username/password?</u></string>
     <string name="create_account">Create account</string>
     <string name="cd_app_and_company_logo">App and Company logo</string>
+
+    <string name="url">URL</string>
+    <string name="downloader_button">Download</string>
+    <string name="img">IMG</string>
+    <string name="logo">LOGO</string>
+    <string name="downloader">DOWNLOADER</string>
+
     <string name="next">next</string>
     <string name="owl_image_view">owl</string>
+
 
 </resources>

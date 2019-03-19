@@ -28,6 +28,7 @@
 
     <string name="next">next</string>
     <string name="owl_image_view">owl</string>
+    <string name="get_state">Проверить подключение</string>
 
 
 </resources>

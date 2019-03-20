@@ -14,19 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
-
-        <activity android:name=".Dz5.Dz5Activity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <service
-            android:name=".Dz5.Dz5Service"
-            android:enabled="true"
-            android:exported="true"/>
+            android:name=".Dz5.Dz5bService"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".Dz5.Dz5Activity"
+            tools:ignore="InnerclassSeparator">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
         <activity android:name=".dz3.ImageDownloader" />
         <activity android:name=".dz4.OwlActivity">
             <intent-filter>

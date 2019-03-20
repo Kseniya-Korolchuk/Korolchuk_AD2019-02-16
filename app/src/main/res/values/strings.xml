@@ -29,6 +29,8 @@
     <string name="next">next</string>
     <string name="owl_image_view">owl</string>
     <string name="get_state">Проверить подключение</string>
+    <string name="wifi_is_on">WiFi включен</string>
+    <string name="wifi_is_off">WiFi выключен</string>
 
 
 </resources>

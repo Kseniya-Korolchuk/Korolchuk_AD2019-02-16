@@ -341,7 +341,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="Pixel_2_API_28" />
+    <property name="device.picker.selection" value="ZY2239XJVT" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -363,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.Dz4Activity">
+  <component name="RunManager" selected="Android App.ImageDownloader">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -698,9 +698,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android App.ImageDownloader" />
         <item itemvalue="Android App.Dz4Activity" />
         <item itemvalue="Android App.LogoActivity" />
-        <item itemvalue="Android App.ImageDownloader" />
         <item itemvalue="Android App.Dz4PieChartActivity" />
         <item itemvalue="Android App.Dz1Activity" />
       </list>
